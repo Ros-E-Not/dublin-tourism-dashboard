@@ -1,0 +1,9 @@
+﻿Field,Type,Description
+location,Text,Monitored area of the city centre where visitors were counted.
+event_date,Date (dd/mm/yyyy),Date the visitors were present. Includes St Patrick's Day parade days and normal days across multiple years.
+gender,Text,Gender of the visitor group. M/F/N (N is none Stated)
+age_band,Text,Age range of the visitor group.
+dwell_time,Text (banded),"How long visitors stayed in the location, given as a band rather than an exact duration."
+visitors,Decimal,"Estimated number of people in this group. Extrapolated from telecoms data to represent everyone in the area, so values are not whole numbers."
+country_of_origin,Text,Country the visitors are from.
+visitor_type,Text,"Category of visitor. Local is from the Dublin area, Domestic is from Ireland but outside of Dublin or International is from abroad"
